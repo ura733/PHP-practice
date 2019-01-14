@@ -13,11 +13,21 @@ echo '<br>';
 // var_dump($csv[0][0]);
 echo '<br>';
 foreach($csv as $key1 => $value1){
+  echo '<br>';
   var_dump($value1);
-  foreach ($value1 as $key2 => $value2) {
-    var_dump($value2);
-    echo '<br>';
-  }
+  echo '<br>';
+  var_dump($value1[0]);
+  echo '<br>';
+  var_dump($value1[1]);
+  echo '<br>';
+  var_dump($value1[2]);
+  echo '<br>';
+  var_dump($value1[3]);
+  echo '<br>';
+  // foreach ($value1 as $key2 => $value2) {
+  //   var_dump($value2);
+  //   echo '<br>';
+  // }
 }
 
 
