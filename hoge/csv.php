@@ -18,6 +18,7 @@ foreach($csv as $key1 => $value1){
   echo '<br>';
   var_dump($value1[0]);
   echo '<br>';
+  
   var_dump($value1[1]);
   echo '<br>';
   var_dump($value1[2]);
